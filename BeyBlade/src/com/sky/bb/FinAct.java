@@ -1,3 +1,8 @@
+/*
+This activity publishes the end result after a game.
+
+*/
+
 package com.sky.bb;
 
 import android.app.Activity;
@@ -30,7 +35,7 @@ public class FinAct extends Activity implements OnClickListener{
 		
 	}
 
-	private void init() {
+	private void init() {                                     // initialization of variables
 		// TODO Auto-generated method stub
 		
 		t=(TextView)findViewById(R.id.textView1);
